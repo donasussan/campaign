@@ -1,3 +1,5 @@
+[4:49 PM] Abhinandh KV
+
 #!/bin/bash
 
 generate_data() {
@@ -18,29 +20,23 @@ generate_data() {
 
     1)
 
-        
+        nested_array=(1 3)
 
         ;;
 
     2)
 
-        nested_array=(1 3)
+        nested_array=(1 3 4)
 
         ;;
 
     3)
 
-        nested_array=(1 3 4)
-
-        ;;
-
-    4)
-
         nested_array=(1 3 4 7)
 
         ;;
 
-    5)
+    4)
 
         if (($percent <= 96)); then
 
@@ -72,7 +68,7 @@ generate_data() {
 
         ;;
 
-    6)
+    5)
 
         if (($percent < 20)); then
 
